@@ -1,0 +1,24 @@
+POST http://localhost:3000/public/addemployee HTTP/1.1
+content-type: application/json
+
+{
+    "username": "john",
+    "password":"abc@123",
+    "mail":"abc@gmail.com",
+    "gender":"male",
+    "mobile":"9121457830",
+    "hometown": "hyderabd",
+    "interests": ["AI","WEB"],
+    "experience": 4,
+    "maritalStatus": "Single",
+    "nationality": "Indian",
+    "languages": ["TElugu","English","Hindi"],
+    "currentLocation": "Hyd",
+    "lastjobexp": 2,
+    "lastjobDesig": "Developer",
+    "department": "IT",
+    "reasonsforleaving": "Needed exp......smthng"
+
+}
+
+
